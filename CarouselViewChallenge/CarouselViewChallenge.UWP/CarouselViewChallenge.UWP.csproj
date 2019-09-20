@@ -103,6 +103,9 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="chair_yellow.png" />
+    <Content Include="mammut_blue.png" />
+    <Content Include="poang_charcoal.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LargeTile.scale-100.png" />
     <Content Include="Assets\LargeTile.scale-200.png" />
@@ -147,7 +150,7 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.3.0.819712-pre2" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.9" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.3.0" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarouselViewChallenge\CarouselViewChallenge.csproj">
